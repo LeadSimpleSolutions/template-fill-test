@@ -3,42 +3,47 @@ html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>test</title>
-<style>
-:root {
---brand: #8fab36;
---dark: #ffffff;
---muted: #c7c7c7;
---bg: #0a0a0a;
---card-bg: #141414;
-}
-body { background: var(--bg); color: var(--dark); font-family: Arial; margin:0; padding:0; }
-header { padding: 40px; text-align: center; background: var(--brand); color: var(--dark);}
-section.hero { padding: 60px 20px; text-align: center; background: var(--card-bg); margin:20px; border-radius:10px;}
-section.services { padding: 40px 20px;}
-.service-card { background: var(--card-bg); padding: 20px; margin-bottom: 20px; border-radius:10px;}
-footer { padding:20px; text-align:center; background: var(--brand); color: var(--dark);}
-</style>
+<meta name="description" content="test">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
+<!-- HEADER -->
 <header>
 <h1>test</h1>
 <p>test</p>
 </header>
 
+<!-- HERO / MAIN CONTENT -->
+<main>
 <section class="hero">
+<div class="wrap hero-grid">
+<div class="hero-content">
 <h1>test</h1>
-<p>test</p>
-<p>test</p>
+<p class="lead">test</p>
+<div class="hero-actions">
+<a href="#" class="btn btn-primary">Get Started</a>
+<a href="#" class="btn btn-outline">Learn More</a>
+</div>
+</div>
+
+<aside>
+<img src="placeholder.jpg" alt="" class="rounded-img">
+</aside>
+</div>
 </section>
 
-<section class="services">
-<div class="service-card"><h2>test</h2><p>test</p></div>
-</section>
+<!-- TESTIMONIALS -->
 
+</main>
+
+<!-- FOOTER -->
 <footer>
 <p>Contact: test@gmail.com | test | uihaofyaopyda</p>
 </footer>
+
+<script src="scripts.js"></script>
 </body>
 </html>
